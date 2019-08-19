@@ -1,5 +1,5 @@
 var trabajos = [{
-    figure: "media/trabajo-01-desfile.jpg",
+    figure: "media/esplat.jpg",
     alt: "Descripción de la imagen",
     title: "Esplat",
     about: "Esplat es un Bowl que muele alimentos tales como paltas, papas o zapallos separándolos de su cáscara en pocos pasos. "
