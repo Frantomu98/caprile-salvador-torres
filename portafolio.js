@@ -1,13 +1,13 @@
 var trabajos = [{
     figure: "media/trabajo-01-desfile.jpg",
     alt: "Descripción de la imagen",
-    title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo"
+    title: "Esplat",
+    about: "Esplat es un Bowl que muele alimentos tales como paltas, papas o zapallos separándolos de su cáscara en pocos pasos. "
 }, {
     figure: "media/trabajo-02-app.jpg",
     alt: "Descripción de la imagen",
-    title: "Título de segundo trabajo",
-    about: "Texto simulado de descripción de segundo trabajo"
+    title: "Tanin",
+    about: "Tanin es una pequeña barra 100% de mate deshidratado y luego prensado, por lo que posee fuertes cualidades energizantes"
 }, {
     figure: "media/trabajo-03-homy.jpg",
     alt: "Descripción de la imagen",
