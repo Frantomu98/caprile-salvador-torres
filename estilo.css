@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
 
-/* 
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Syncopate:700&display=swap');
+
+
+/*
 
 Así se escriben los comentario en CSS.
 Siempre se abren con slash asterisco, y
@@ -15,16 +17,16 @@ se cierran con asterisco slash.
 }
 
 body{
-    font-family:'DM Sans', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:#FFFFFF; /*el primer par es R, segundo es G y tercero es B*/
+    background-color:#000; /*el primer par es R, segundo es G y tercero es B*/
 }
 
 h1, h2{
-    font-family:'Space Mono', monospace;
-    color:#FFFFFF; /* lo básico, para evitar problemas */
-    color:rgba(255,255,255,0.8); /* si el navegador lo entiende, lo usa */
+  font-family: 'Syncopate', sans-serif;
+    color:#fff; /* lo básico, para evitar problemas */
+    color:#fff; /* si el navegador lo entiende, lo usa */
     text-align:center;
     letter-spacing:0.1em;
     font-weight:700;
@@ -54,7 +56,7 @@ h3{
 }
 
 h5, h6{
-    font-weight:700;     
+    font-weight:700;
 }
 
 a{
@@ -63,13 +65,13 @@ a{
 }
 
 a:hover{
-    color:rgb(255,0,0);
+    color:#000;
     text-decoration:underline;
 }
 
 header{
     width:100%;
-    top:36%;
+    top:20%;
     position: absolute;
     text-align:center;
     z-index:9;
@@ -89,25 +91,25 @@ main{
     width:100%;
 }
 
-/* 
-Puedes revisar detalles sobre el siguiente uso de flex 
-en https://www.taniarascia.com/easiest-flex-grid-ever/ 
+/*
+Puedes revisar detalles sobre el siguiente uso de flex
+en https://www.taniarascia.com/easiest-flex-grid-ever/
 */
 
 #equipo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color:#fff /* lo mismo que #FFFFFF, simplificando pares iguales*/;
-    color:rgba(255,255,255,1);
+    color:#000 /* lo mismo que #FFFFFF, simplificando pares iguales*/;
+    color:#000;
 }
 
 #equipo a{
-    color:rgba(255,255,255,.7);
+    color:#000;
 }
 
 #equipo a:hover{
-    color:rgba(255,255,255,.9);
+    color:#000;
 }
 
 .integrante {
@@ -150,7 +152,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     font-size:.8rem;
     letter-spacing : 0.1rem;
     padding-top:0.25rem;
-    color:rgba(255,255,255,.75);
+    color:#000;
 }
 
 .integrante blockquote cite:before {
@@ -158,8 +160,8 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#F83277;
-    background-image:url('media/integrante-1a.png');
+    background-color:#f7a40c;
+    background-image:url('media/siluetaluciano.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -167,40 +169,40 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 
 .integrante:nth-of-type(2){
-    background:#F93332;
-    background-image:url('media/integrante-2a.png');
+    background:#f7a40c;
+    background-image:url('media/siluetatom.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(3){
-    background:#FA7633;
-    background-image:url('media/integrante-3a.png');
+    background:#f7a40c;
+    background-image:url('media/siluetafran.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#c2185b;
-    background-image:url('media/integrante-1b.png');
+    background-color:#b02351;
+    background-image:url('media/Luciano blue.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(2):hover{
-    background:#d32f2f;
-    background-image:url('media/integrante-2b.png');
+    background:#f7d917;
+    background-image:url('media/tom blue.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(3):hover{
-    background:#ef6c00;
-    background-image:url('media/integrante-3b.png');
+    background:#f7d917;
+    background-image:url('media/fran blue.png');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
@@ -214,15 +216,15 @@ AHORA VAMOS POR PORTAFOLIO
 
 #portafolio{
     width:100%;
-    padding:.25% 0;
-    background:linear-gradient(to bottom, #EEEEEE, #AAAAAA);
+    padding:.50% 0;
+    background:linear-gradient(to bottom, #000, #cf2756);
 }
 
 .item {
-    width:23%;
+    width:31%;
     margin:1%;
-    color:#333;
-    background:#eee;
+    color:#FFF; /* COLOR LETRAS*/
+    background:#37747a;/* COLOR CUADROS TEXTO PORTAFOLIOS*/
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
@@ -236,7 +238,7 @@ AHORA VAMOS POR PORTAFOLIO
 }
  @media screen and (max-width: 576px){
      .item{
-         width:96%;
+         width:96%%;
          margin:2%;
          background:#000;
          color:#FFF;
@@ -255,9 +257,9 @@ AHORA VAMOS POR PORTAFOLIO
      filter: grayscale(1);
 }
  .item:hover figure img{
-     transform:scale(2);
+
      filter: grayscale(0);
-     transition:all ease-out 1s;
+
 }
  .item h4{
      font-size:1em;
@@ -278,4 +280,8 @@ AHORA VAMOS POR PORTAFOLIO
      text-transform:uppercase;
      letter-spacing:0.1em;
      font-size:0.9em;
+}
+
+.vermas a{
+  color:#f7d917;
 }
