@@ -35,6 +35,7 @@ var trabajos = [{
     title: "Tanin",
     about: "Producto alimenticio hecho 100% de mate. Creado para la Feria Gastronómica de Taller: Producto, 2018.",
     autor: "Francisca Torres y Luciano Caprile",
+    url: "https://youtu.be/andyxzzrIHQ"
 }, {
     figure: "media/esplat.png",
     alt: "Descripción de la imagen",
