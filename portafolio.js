@@ -43,7 +43,7 @@ var trabajos = [{
     autor: "Francisca Torres y Luciano Caprile",
     url:"https://www.youtube.com/watch?v=MBFTqAlNHzg&feature=youtu.be"
 }, {
-    figure: "media/wako.png",
+    figure: "media/P1.png",
     alt: "Descripción de la imagen",
     title: "Wako",
     about: "Wako es un lavatorio/mudador para bebés. Es portátil y plegable, pensado para un contexto de emergencia. Taller: Producto 2018.",
