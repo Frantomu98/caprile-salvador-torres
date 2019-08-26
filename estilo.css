@@ -236,6 +236,14 @@ AHORA VAMOS POR PORTAFOLIO
         color:#eee;
     }
 }
+ @media screen and (max-width: 576px){
+     .item{
+         width:96%;
+         margin:2%;
+         background:#000;
+         color:#FFF;
+    }
+}
  @media screen and (max-width: 600px){
      .item{
          width:96%;
