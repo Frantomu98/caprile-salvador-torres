@@ -3,7 +3,7 @@ var trabajos = [{
     figure: "media/mapochito.png",
     alt: "Descripción de la imagen",
     title: "Dakobujos",
-    about: "Cuenta de ilustraciones, caricaturas y proyectos",
+    about: "Cuenta de ilustraciones, caricaturas y proyectos de diseño.",
     autor: "Luciano Caprile",
     url: "https://www.instagram.com/dakobujos/"
 
@@ -12,14 +12,14 @@ var trabajos = [{
       figure: "media/avstract.png",
       alt: "Descripción de la imagen",
       title: "Avstrakt",
-      about: "Ilustraciones psicodélicas y abstractas",
+      about: "Ilustraciones psicodélicas y abstractas.",
       autor: "Tomás Salvador",
       url: "https://www.instagram.com/avstrak.t/"
 }, {
     figure: "media/byfranto.jpg",
     alt: "Descripción de la imagen",
     title: "By Franto",
-    about: "Recopilación de ilustraciones",
+    about: "Recopilación de ilustraciones.",
     autor: "Francisca Torres",
     url: "https://www.instagram.com/byfranto/"
 }, {
@@ -67,7 +67,7 @@ var trabajos = [{
     figure: "media/moviles.png",
     alt: "Descripción de la imagen",
     title: "Móviles",
-    about: "Móviles, la nueva línea de de Magia y Cartón presenta Rola: el auto. Este juguete busca fomentar la creatividad y fortalecer el lazo con los padres. TIDE, 2019",
+    about: "Móviles, la nueva línea de de Magia y Cartón presenta Rola: el auto. Este juguete busca fomentar la creatividad y fortalecer el lazo con los padres. TIDE, 2019.",
     autor: "Francisca Torres y Luciano Caprile",
     url:"https://www.youtube.com/watch?v=9gdR-9AKXEQ&feature=youtu.be"
 
