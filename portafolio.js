@@ -26,7 +26,7 @@ var trabajos = [{
     figure: "media/1d.jpg",
     alt: "Descripción de la imagen",
     title: "1Día tablas",
-    about: "Propuesta visual aplicada a lijas de tablas de skate y bolso de transporte. TIDE 2018",
+    about: "Propuesta visual aplicada a lijas de tablas de skate y bolso de transporte. TIDE 2018.",
     autor: "Tomás Salvador",
     url: "https://www.youtube.com/watch?v=GQ-zlgB14oo&feature=youtu.be"
 }, {
